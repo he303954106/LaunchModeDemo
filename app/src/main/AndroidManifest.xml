@@ -25,6 +25,8 @@
                   android:launchMode="standard"/>
         <activity android:name=".standard.StandardD"
                   android:launchMode="standard"/>
+        <activity android:name=".standard.StandardX"
+                  android:launchMode="standard"/>
 
         <activity android:name=".singletop.SingleTopA"
                   android:launchMode="singleTop"/>
@@ -33,6 +35,8 @@
         <activity android:name=".singletop.SingleTopC"
                   android:launchMode="singleTop"/>
         <activity android:name=".singletop.SingleTopD"
+                  android:launchMode="singleTop"/>
+        <activity android:name=".singletop.SingleTopX"
                   android:launchMode="singleTop"/>
 
         <activity android:name=".singletask.SingleTaskA"
@@ -43,6 +47,8 @@
                   android:launchMode="singleTask"/>
         <activity android:name=".singletask.SingleTaskD"
                   android:launchMode="singleTask"/>
+        <activity android:name=".singletask.SingleTaskX"
+                  android:launchMode="singleTask"/>
 
         <activity android:name=".singleinstance.SingleInstanceA"
                   android:launchMode="singleInstance"/>
@@ -51,6 +57,8 @@
         <activity android:name=".singleinstance.SingleInstanceC"
                   android:launchMode="singleInstance"/>
         <activity android:name=".singleinstance.SingleInstanceD"
+                  android:launchMode="singleInstance"/>
+        <activity android:name=".singleinstance.SingleInstanceX"
                   android:launchMode="singleInstance"/>
 
         <activity android:name=".OtherActivity"/>
