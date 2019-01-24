@@ -90,14 +90,14 @@ public abstract class BaseActivity extends AppCompatActivity
         switch (v.getId()) {
             case R.id.bt_standard:
                 break;
-            case R.id.bt_single_task:
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                break;
             case R.id.bt_single_top:
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 break;
+            case R.id.bt_single_task:
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                break;
             case R.id.bt_clear_top_and_single_task:
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 break;
         }
