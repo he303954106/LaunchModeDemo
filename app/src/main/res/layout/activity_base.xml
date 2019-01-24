@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="info"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="select next"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbt_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="A"/>
+        <RadioButton
+            android:id="@+id/rbt_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+        <RadioButton
+            android:id="@+id/rbt_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+        <RadioButton
+            android:id="@+id/rbt_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/rg_startActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbt_startActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="startActivity"/>
+        <RadioButton
+            android:id="@+id/rbt_startActivityForResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="startActivityForResult"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/bt_standard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="standard"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/bt_single_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="single_top"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/bt_single_task"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="single_task"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/bt_clear_top_and_single_task"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="clear_top_and_single_task"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_standard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="standard"
+        android:textColor="#000000"
+        android:textSize="16sp"
+    />
+    <Button
+        android:id="@+id/bt_single_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="single_top"
+        android:textColor="#000000"
+        android:textSize="16sp"
+    />
+    <Button
+        android:id="@+id/bt_single_task"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="single_task"
+        android:textColor="#000000"
+        android:textSize="16sp"
+    />
+    <Button
+        android:id="@+id/bt_single_instance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="single_instance"
+        android:textColor="#000000"
+        android:textSize="16sp"
+    />
+    <Button
+        android:id="@+id/bt_other"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="other_sample"
+        android:textColor="#000000"
+        android:textSize="16sp"
+    />
+</LinearLayout>
